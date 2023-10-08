@@ -63,7 +63,7 @@ public class Radio {
     }
 
     public void prev() {
-        if (currentStation > 0) {
+        if (currentStation > minStation) {
             currentStation --;
         }
     }
